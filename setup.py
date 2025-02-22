@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="yoix-pi",
-    version="0.1.0",
+    version="1.0.0",
     author="Alex Crocker",
     description="BBEdit-style persistent includes for Python",
     long_description=long_description,
@@ -17,7 +17,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     install_requires=[
         "click>=8.0.0",
     ],
